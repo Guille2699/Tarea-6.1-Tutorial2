@@ -47,4 +47,15 @@ public class Calculadora {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+        //métodos
+
+    public double suma() {
+        double suma=numero1+numero2;
+        return suma;
+    }
+
+    public double resta() {
+        double resta=numero1-numero2;
+        return resta;
+    }
 }
